@@ -1,9 +1,13 @@
 
 
-- Wir bekommen Cryptocurrencydaten vom Prof
+- Wir bekommen Cryptocurrencydaten vom Prof 
+    darauf achten, dass wir originales Dataset benutzen und nicht das transformierte (Transformieren wird
+    Teil des Jupyter Notebooks)
 
-- Algorithmus entwickeln, der vorraussagt ob Kurs am folgenden Tag steigt
-    -Varoable Zeitspanne für Input (daraus könnten wir ableiten welche zeitspanne für crypto am besten ist)
+- Algorithmus entwickeln, der vorraussagt ob Kurs am folgenden Tag steigt 
+    -> price flip (-1,0,1)
+    -Variable Zeitspanne für Input (Sliding Window) 
+        ->daraus könnten wir ableiten welche zeitspanne für crypto am besten ist
     - evtl. gegen Fiat Währungen abgleichen
 
 
@@ -12,3 +16,9 @@
     - Funktionalität zum Plotten, Regressionsgeraden
     - Daten anschauen und verstehen
     - Klassifizierer finden --> altcoins (können wir von altcoin auf bitcoin schließen?)
+
+-Dataset:
+    -Daten anschauen und verstehen
+    -Daten bereinigen
+    -Principal Component Analyse
+    -lineare Regression
