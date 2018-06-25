@@ -1,0 +1,14 @@
+
+
+- Wir bekommen Cryptocurrencydaten vom Prof
+
+- Algorithmus entwickeln, der vorraussagt ob Kurs am folgenden Tag steigt
+    -Varoable Zeitspanne für Input (daraus könnten wir ableiten welche zeitspanne für crypto am besten ist)
+    - evtl. gegen Fiat Währungen abgleichen
+
+
+-Schritte:
+    - Daten importieren
+    - Funktionalität zum Plotten, Regressionsgeraden
+    - Daten anschauen und verstehen
+    - Klassifizierer finden --> altcoins (können wir von altcoin auf bitcoin schließen?)
