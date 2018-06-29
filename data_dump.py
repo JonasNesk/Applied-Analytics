@@ -10,6 +10,7 @@ Created on Thu Jun 28 16:12:20 2018
 
 import requests
 import tarfile
+import pandas as pd
 
 url = 'https://coinmetrics.io/data/all.tar.gz'  #data URL
 r = requests.get(url) #call URL
@@ -22,3 +23,6 @@ with open('Data/crypto.tar.gz', 'wb') as f:
 tar = tarfile.open('Data/crypto.tar.gz') 
 tar.extractall(path='Data/crypto')
 tar.close() 
+
+df = pd.read_csv('Data/crypto/*.csv')
+
