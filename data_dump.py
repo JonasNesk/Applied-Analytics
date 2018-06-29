@@ -24,5 +24,4 @@ tar = tarfile.open('Data/crypto.tar.gz')
 tar.extractall(path='Data/crypto')
 tar.close() 
 
-df = pd.read_csv('Data/crypto/*.csv')
 
