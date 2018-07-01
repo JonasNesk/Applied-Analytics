@@ -1,10 +1,7 @@
 import csv
 import inspect, os
 
-act_file = os.getcwd()
-act_file += '/Data/crypto'
-print(act_file)
-for file in os.listdir(act_file):
+for file in os.listdir(os.getcwd() + '/Data/crypto'):
     if file.endswith(".csv"):
                  
         filename = os.path.splitext(file)[0] #ohne endung
