@@ -1,5 +1,23 @@
 import csv
 import inspect, os
+import requests
+import tarfile
+import pandas as pd
+
+
+# get the data
+url = 'https://coinmetrics.io/data/all.tar.gz'  #data URL
+r = requests.get(url) #call URL
+
+#save file as "crypto.tar.gz"
+with open('Data/crypto.tar.gz', 'wb') as f:  
+    f.write(r.content)
+
+#extract .tar.gz and save to folder "crypto" in Data folder
+tar = tarfile.open('Data/crypto.tar.gz') 
+tar.extractall(path='Data/crypto')
+tar.close() 
+
 
 for file in os.listdir(os.getcwd() + '/Data/crypto'):
     if file.endswith(".csv"):
