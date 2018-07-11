@@ -14,6 +14,9 @@ curr = df[df['symbol'] == curr_name]['date']
 
 curr_trade_s = curr[0]
 curr_trade_e = curr[len(curr)-1]
+
+print(curr)
+print(df.head())
 print('start: ', curr_trade_s)
 print('end:   ', curr_trade_e)
 
