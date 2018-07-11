@@ -22,3 +22,10 @@
     -Daten bereinigen
     -Principal Component Analyse
     -lineare Regression
+
+----------------
+- Normalisierung bringt nichts, da unser Datenset eine sehr hohe Varianz hat und nicht annähernd normalverteilt ist
+
+- kurz gestrandete cryptos werden sehr gut vorhersehbar sein da sie wahrscheinlich total overfittet sind aufgrund wenig verfügbarer datenpunkte
+
+-  erklärung der Regression: Aufbau und durchführung (pivotieren)
